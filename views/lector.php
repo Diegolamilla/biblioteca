@@ -24,7 +24,7 @@
                 <div class="col-xs-12 lead">
                     <ol class="breadcrumb">
                       <li class="active">Nuevo lector</li>
-                      <li><a href="liststudent.html">Listado de lectores</a></li>
+                      <li><a href="<?php echo BASE_URL;?>listar-lector">Listado de lectores</a></li>
                     </ol>
                 </div>
             </div>

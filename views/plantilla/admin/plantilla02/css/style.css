@@ -126,7 +126,7 @@ span.label-mhover{
     width: 45px;
     float: right;
     height: 45px;
-    border: 2px solid #728890;
+    border: 2px solid #2d3945;
     margin-top: 5px;
 }
 .navbar-lateral{
@@ -186,7 +186,7 @@ span.label-mhover{
     line-height: 45px;
 }
 .nav-lateral-list-menu ul li a:hover{
-    background-color: #E75A5A;
+    background-color: #12a929;
 }
 .nav-lateral-list-menu ul li a:active,
 .nav-lateral-list-menu ul li a:focus{

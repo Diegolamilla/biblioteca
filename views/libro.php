@@ -19,112 +19,52 @@
                     <div class="title-flat-form title-flat-blue">Nuevo libro</div>
                     <div class="row">
                        <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-                            <legend><strong>Información básica</strong></legend><br>
+                            <legend><strong>Información del libro</strong></legend><br><br>
                             <div class="group-material">
-                                <span>Categoría</span>
-                                <select class="tooltips-general material-control" data-toggle="tooltip" data-placement="top" title="Elige la categoría del libro">
-                                    <option value="" disabled="" selected="">Selecciona una categoría</option>
-                                    <option value="categoria">Categoría</option>
-                                    <option value="categoria">Categoría</option>
-                                    <option value="categoria">Categoría</option>
-                                </select>
-                            </div>
-                            <div class="group-material">
-                                <input type="text" class="tooltips-general material-control" placeholder="Escribe aquí el código correlativo del libro" pattern="[0-9]{1,20}" required="" maxlength="20" data-toggle="tooltip" data-placement="top" title="Escribe el código correlativo del libro, solamente números">
+                                <input type="text" id="cod_libro" name="cod_libro" class="tooltips-general material-control" placeholder="Escribe aquí el código del libro"  required="" maxlength="20" data-toggle="tooltip" data-placement="top" title="Escribe el código del libro">
                                 <span class="highlight"></span>
                                 <span class="bar"></span>
-                                <label>Código correlativo</label>
+                                <label>Código</label>
                             </div>
                             <div class="group-material">
-                                <input type="text" class="tooltips-general material-control" placeholder="Escribe aquí el título o nombre del libro" required="" maxlength="70" data-toggle="tooltip" data-placement="top" title="Escribe el título o nombre del libro">
+                                <input type="text" id="nombre" name="nombre" class="tooltips-general material-control" placeholder="Escribe aquí el título o nombre del libro" required="" maxlength="100" data-toggle="tooltip" data-placement="top" title="Escribe el título o nombre del libro">
                                 <span class="highlight"></span>
                                 <span class="bar"></span>
-                                <label>Título</label>
+                                <label>Nombre</label>
                             </div>
                             <div class="group-material">
-                                <input type="text" class="tooltips-general material-control" placeholder="Escribe aquí el autor del libro" required="" maxlength="70" data-toggle="tooltip" data-placement="top" title="Escribe el nombre del autor del libro">
+                                <input type="text" id="autor" name="autor" class="tooltips-general material-control" placeholder="Escribe aquí el autor del libro" required="" maxlength="150" data-toggle="tooltip" data-placement="top" title="Escribe el nombre del autor del libro">
                                 <span class="highlight"></span>
                                 <span class="bar"></span>
                                 <label>Autor</label>
                             </div>
                             <div class="group-material">
-                                <input type="text" class="tooltips-general material-control" placeholder="Escribe aquí el país del libro" required="" maxlength="50" data-toggle="tooltip" data-placement="top" title="Escribe el país del libro">
-                                <span class="highlight"></span>
-                                <span class="bar"></span>
-                                <label>País</label>
-                            </div>
-                            <legend><strong>Otros datos</strong></legend><br>
-                            <div class="group-material">
-                                <span>Proveedor</span>
-                                <select class="tooltips-general material-control" data-toggle="tooltip" data-placement="top" title="Elige el proveedor del libro">
-                                    <option value="" disabled="" selected="">Selecciona un proveedor</option>
-                                    <option value="proveedor">Proveedor</option>
-                                    <option value="proveedor">Proveedor</option>
-                                    <option value="proveedor">Proveedor</option>
+                                <span>Categoria</span>
+                                <select id="categoria" name="categoria" class="tooltips-general material-control" required="" data-toggle="tooltip" data-placement="top" title="Elige la categoria del libro">
+                                    <option >Proveedor</option>
                                 </select>
+                                
                             </div>
                            <div class="group-material">
-                               <input type="text" class="material-control tooltips-general" placeholder="Escribe aquí el año del libro" required="" pattern="[0-9]{1,4}" maxlength="4" data-toggle="tooltip" data-placement="top" title="Solamente números, sin espacios">
+                               <input type="text" id="estado" class="material-control tooltips-general" placeholder="Escribe el estado del libro" required=""  maxlength="20" data-toggle="tooltip" data-placement="top" title="cual es el estado del libro">
                                 <span class="highlight"></span>
                                 <span class="bar"></span>
-                                <label>Año</label>
+                                <label>Estado</label>
                            </div>
                             <div class="group-material">
-                                <input type="text" class="material-control tooltips-general" placeholder="Escribe aquí la editorial del libro" required="" maxlength="70" data-toggle="tooltip" data-placement="top" title="Editorial del libro">
+                                <input type="text" id="cantidad_libros" name="cantidad_libros" class="material-control tooltips-general" placeholder="Escribe aquí la cantidad de libro" required="" pattern="[0-9]{1,20}" maxlength="2" data-toggle="tooltip" data-placement="top" title="cuantos libros de estos tienes">
                                 <span class="highlight"></span>
                                 <span class="bar"></span>
-                                <label>Editorial</label>
-                            </div>
-                            <div class="group-material">
-                                <input type="text" class="material-control tooltips-general" placeholder="Escribe aquí la edición del libro" required="" maxlength="50" data-toggle="tooltip" data-placement="top" title="Edición del libro">
-                                <span class="highlight"></span>
-                                <span class="bar"></span>
-                                <label>Edición</label>
-                            </div>
-                            <div class="group-material">
-                                <input type="text" class="material-control tooltips-general"  placeholder="Escribe aquí la cantidad de libros que registraras" required=" "pattern="[0-9]{1,7}" maxlength="7" data-toggle="tooltip" data-placement="top" title="¿Cuántos libros registraras?">
-                                <span class="highlight"></span>
-                                <span class="bar"></span>
-                                <label>Ejemplares</label>
-                            </div>
-                            <legend><strong>Estado físico, ubicación y valor</strong></legend><br>
-                            <div class="group-material">
-                               <input type="text" class="material-control tooltips-general" placeholder="Escribe aquí la ubicación del libro" required="" maxlength="50" data-toggle="tooltip" data-placement="top" title="¿Dónde se ubicara el libro?">
-                                <span class="highlight"></span>
-                                <span class="bar"></span>
-                                <label>Ubicación</label>
-                            </div>
-                            <div class="group-material">
-                                <span>Cargo</span>
-                                <select class="tooltips-general material-control" data-toggle="tooltip" data-placement="top" title="Elige el cargo del libro">
-                                    <option value="" disabled="" selected="">Selecciona el cargo del libro</option>
-                                    <option value="1-1">Entrega del ministerio</option>
-                                    <option value="1-2">Donaciones</option>
-                                    <option value="1-3">Compras con fondos propios</option>
-                                    <option value="1-4">Presupuesto escolar</option>
-                                    <option value="1-5">Otros</option>
-                                </select>
-                            </div>
-                            <div class="group-material">
-                                <input type="text" class="material-control tooltips-general" placeholder="Escribe aquí el precio estimado del libro" required="" pattern="[0-9.]{1,7}" maxlength="7" data-toggle="tooltip" data-placement="top" title="Sólo números y un punto si el valor posee decimales. Ejemplo: 7.79">
-                                <span class="highlight"></span>
-                                <span class="bar"></span>
-                                <label>Estimado</label>
-                            </div>
-                            <div class="group-material">
-                                <span>Estado</span>
-                                <select class="tooltips-general material-control" data-toggle="tooltip" data-placement="top" title="Elige el estado del libro">
-                                    <option value="" disabled="" selected="">Selecciona el estado del libro</option>
-                                    <option value="Bueno">Bueno</option>
-                                    <option value="Deteriorado">Deteriorado</option>
-                                </select>
+                                <label>Cantidad</label>
                             </div>
                             <p class="text-center">
-                                <button type="reset" class="btn btn-info" style="margin-right: 20px;"><i class="zmdi zmdi-roller"></i> &nbsp;&nbsp; Limpiar</button>
-                                <button type="submit" class="btn btn-primary"><i class="zmdi zmdi-floppy"></i> &nbsp;&nbsp; Guardar</button>
+                                <button type="reset" class="btn btn-info" style="margin-right: 20px;"><i class="bi bi-eraser-fill"></i> &nbsp;&nbsp; Limpiar</button>
+                                <button type="button" class="btn btn-primary" onclick="registrar_libro();"><i class="bi bi-floppy-fill"></i>&nbsp;&nbsp; Guardar</button>
                             </p>
                        </div>
                    </div>
                 </div>
             </form>
+            <script src="<?php echo BASE_URL;?>views/js/functions_libro.js"></script>
+            <script> listar_Categoria();</script>
         </div>

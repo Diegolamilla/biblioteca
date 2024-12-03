@@ -23,44 +23,41 @@
                 <i class="visible-xs zmdi zmdi-close pull-left mobile-menu-button" style="line-height: 55px; cursor: pointer; padding: 0 10px; margin-left: 7px;"></i> 
                 Biblioteca municipal
             </div>
-            <div class="full-reset" style="background-color:#0cb842; padding: 10px 0; color:#fff;">
+            <div class="full-reset" style="background-color:#2d3945; padding: 10px 0; color:#fff;">
                 <figure>
                     <img src="<?php echo BASE_URL;?>assets/img/logo.png" alt="Biblioteca" class="img-responsive center-box" style="width:55%;">
                 </figure>
                 <p class="text-center" style="padding-top: 15px;">Municipalidad distrital de Luricocha</p>
             </div>
-            <div class="full-reset nav-lateral-list-menu" style="background-color:#0cb842;">
+            <div class="full-reset nav-lateral-list-menu" style="background-color:#2d3945;">
                 <ul class="list-unstyled">
-                    <li><a href="<?php echo BASE_URL;?>inicio"><i class="zmdi zmdi-home zmdi-hc-fw"></i>&nbsp;&nbsp; Inicio</a></li>
+                    <li><a href="<?php echo BASE_URL;?>inicio"><i class="bi bi-house-fill"></i>&nbsp;&nbsp; Inicio</a></li>
                     <li>
-                        <div class="dropdown-menu-button"><i class="zmdi zmdi-account-add zmdi-hc-fw"></i>&nbsp;&nbsp; Registro de usuarios <i class="zmdi zmdi-chevron-down pull-right zmdi-hc-fw"></i></div>
+                        <div class="dropdown-menu-button"><i class="bi bi-person-plus-fill"></i>&nbsp;&nbsp; Registro de usuarios </div>
                         <ul class="list-unstyled">
-                            <li><a href="<?php echo BASE_URL;?>admin"><i class="zmdi zmdi-face zmdi-hc-fw"></i>&nbsp;&nbsp; Nuevo administrador</a></li>
-                            <li><a href="<?php echo BASE_URL;?>lector"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i>&nbsp;&nbsp; Nuevo lector</a></li>
+                            <li><a href="<?php echo BASE_URL;?>admin"><i class="bi bi-person-fill"></i>&nbsp;&nbsp; Nuevo administrador</a></li>
+                            <li><a href="<?php echo BASE_URL;?>lector"><i class="bi bi-person-badge-fill"></i>&nbsp;&nbsp; Nuevo lector</a></li>
                         </ul>
                     </li>
                     <li>
-                        <div class="dropdown-menu-button"><i class="zmdi zmdi-assignment-o zmdi-hc-fw"></i>&nbsp;&nbsp; Libros y catálogo <i class="zmdi zmdi-chevron-down pull-right zmdi-hc-fw"></i></div>
+                        <div class="dropdown-menu-button"><i class="bi bi-clipboard-fill"></i>&nbsp;&nbsp; Libros y catálogo </div>
                         <ul class="list-unstyled">
-                            <li><a href="<?php echo BASE_URL;?>categoria"><i class="zmdi zmdi-bookmark-outline zmdi-hc-fw"></i>&nbsp;&nbsp; Nueva categoría</a></li>
-                            <li><a href="<?php echo BASE_URL;?>libro"><i class="zmdi zmdi-book zmdi-hc-fw"></i>&nbsp;&nbsp; Nuevo libro</a></li>
-                            <li><a href="<?php echo BASE_URL;?>catalogo"><i class="zmdi zmdi-bookmark-outline zmdi-hc-fw"></i>&nbsp;&nbsp; Catálogo</a></li>
+                            <li><a href="<?php echo BASE_URL;?>categoria"><i class="bi bi-bookmark-plus-fill"></i>&nbsp;&nbsp; Nueva categoría</a></li>
+                            <li><a href="<?php echo BASE_URL;?>libro"><i class="bi bi-book-fill"></i>&nbsp;&nbsp; Nuevo libro</a></li>
+                            <li><a href="<?php echo BASE_URL;?>catalogo"><i class="bi bi-journals"></i>&nbsp;&nbsp; Catálogo</a></li>
                         </ul>
                     </li>
                     <li>
-                        <div class="dropdown-menu-button"><i class="zmdi zmdi-alarm zmdi-hc-fw"></i>&nbsp;&nbsp; Préstamos y reservaciones <i class="zmdi zmdi-chevron-down pull-right zmdi-hc-fw"></i></div>
+                        <div class="dropdown-menu-button"><i class="bi bi-arrow-clockwise"></i>&nbsp;&nbsp; Préstamos y reservaciones </div>
                         <ul class="list-unstyled">
-                            <li><a href="<?php echo BASE_URL;?>loan.html"><i class="zmdi zmdi-calendar zmdi-hc-fw"></i>&nbsp;&nbsp; Todos los préstamos</a></li>
+                            <li><a href="<?php echo BASE_URL;?>loan.html"><i class="bi bi-card-list"></i>&nbsp;&nbsp; Todos los préstamos</a></li>
                             <li>
-                                <a href="<?php echo BASE_URL;?>loanpending.html"><i class="zmdi zmdi-time-restore zmdi-hc-fw"></i>&nbsp;&nbsp; Devoluciones pendientes <span class="label label-danger pull-right label-mhover">7</span></a>
-                            </li>
-                            <li>
-                                <a href="<?php echo BASE_URL;?>loanreservation.html"><i class="zmdi zmdi-timer zmdi-hc-fw"></i>&nbsp;&nbsp; Reservaciones <span class="label label-danger pull-right label-mhover">7</span></a>
+                                <a href="<?php echo BASE_URL;?>loanpending.html"><i class="bi bi-calendar-week-fill"></i>&nbsp;&nbsp; Devoluciones pendientes <span class="label label-danger pull-right label-mhover">7</span></a>
                             </li>
                         </ul>
                     </li>
-                    <li><a href="<?php echo BASE_URL;?>reportes"><i class="zmdi zmdi-trending-up zmdi-hc-fw"></i>&nbsp;&nbsp; Reportes y estadísticas</a></li>
-                    <li><a href="<?php echo BASE_URL;?>configuracion-avanzada"><i class="zmdi zmdi-wrench zmdi-hc-fw"></i>&nbsp;&nbsp; Configuraciones avanzadas</a></li>
+                    <li><a href="<?php echo BASE_URL;?>reportes"><i class="bi bi-graph-up"></i>&nbsp;&nbsp; Reportes</a></li>
+                    <li><a href="<?php echo BASE_URL;?>configuracion-avanzada"><i class="bi bi-gear-fill"></i>&nbsp;&nbsp; Configuraciones avanzadas</a></li>
                 </ul>
             </div>
         </div>
@@ -75,16 +72,16 @@
                     <span class="all-tittles">Admin Name</span>
                 </li>
                 <li  class="tooltips-general exit-system-button" data-href="index.html" data-placement="bottom" title="Salir del sistema">
-                    <i class="zmdi zmdi-power"></i>
+                <i class="bi bi-power"></i>
                 </li>
                 <li  class="tooltips-general search-book-button" data-href="searchbook.html" data-placement="bottom" title="Buscar libro">
-                    <i class="zmdi zmdi-search"></i>
+                <i class="bi bi-search"></i>
                 </li>
                 <li  class="tooltips-general btn-help" data-placement="bottom" title="Ayuda">
-                    <i class="zmdi zmdi-help-outline zmdi-hc-fw"></i>
+                <i class="bi bi-question-lg"></i>
                 </li>
                 <li class="mobile-menu-button visible-xs" style="float: left !important;">
-                    <i class="zmdi zmdi-menu"></i>
+                <i class="bi bi-list"></i>
                 </li>
             </ul>
         </nav>

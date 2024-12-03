@@ -5,8 +5,8 @@
         </div>
         <div class="container-fluid">
             <ul class="nav nav-tabs"  style="font-size: 17px;">
-                <li role="presentation"  class="active"><a href="<?php echo BASE_URL;?>admin">Administradores</a></li>
-                <li role="presentation"><a href="<?php echo BASE_URL;?>lector">Lectores</a></li>
+            <li role="presentation"  class="active"><a href="<?php echo BASE_URL;?>admin">Administradores</a></li>
+            <li role="presentation"><a href="<?php echo BASE_URL;?>lector">Lectores</a></li>   
             </ul>
         </div>
         <div class="container-fluid"  style="margin: 50px 0;">
@@ -23,8 +23,8 @@
             <div class="row">
                 <div class="col-xs-12 lead">
                     <ol class="breadcrumb">
-                      <li class="active col-3">Nuevo administrador</li>
-                      <li class="col-3" ><a href="listadmin.html">Listado de administradores</a></li>
+                      <li class="active">Nuevo administrador</li>
+                      <li><a href="<?php echo BASE_URL;?>listar-admin">Listado de administradores</a></li>
                     </ol>
                 </div>
             </div>

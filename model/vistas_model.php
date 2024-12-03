@@ -2,7 +2,7 @@
 class vistaModelo{
     //funcion para obtener vistas
     protected static function obtener_vista($vista){
-        $palabras_permitidas =['usuario','producto','nuevo-producto','inicio','nueva-categoria','nueva-persona','nueva-compra','admin','lector','categoria','libro','catalogo','configuracion-avanzada','reportes']; 
+        $palabras_permitidas =['usuario','inicio','nueva-categoria','nueva-persona','admin','lector','categoria','libro','catalogo','configuracion-avanzada','reportes','listar-admin','listar-categoria','listar-lector','listar-libro']; 
         //carpetas de php
         if(in_array($vista, $palabras_permitidas)){
             if (is_file("./views/".$vista.".php")) {

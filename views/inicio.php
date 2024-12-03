@@ -36,7 +36,7 @@
             </article>
             <article class="tile">
                 <div class="tile-icon full-reset"><a class="link-success" href="<?php echo BASE_URL;?>inicio"><i class="bi bi-graph-up-arrow"></i></a></div>
-                <div class="tile-name all-tittles" style="width: 90%;">reportes y estadísticas</div>
+                <div class="tile-name all-tittles" style="width: 90%;">reportes</div>
                 <div class="tile-num full-reset">&nbsp;</div>
             </article>
         </section>
